@@ -1,40 +1,66 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: STAND DIGITAL
+description: Centralize todo o lançamento em um único ambiente digital.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: A plataforma completa para lançamentos imobiliários.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Documentação Geral
+      link: /docs-stand/
+      icon: open-book
+    - text: Área Administrativa
+      link: /docs-admin/
+      icon: setting
+    - text: Guia "Como Fazer" - Administrativo
+      link: /guides-admin/
+      icon: document
+    - text: Guia "Como Fazer" - Corretor
+      link: /guides-stand/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Bem-vindo ao StandDigital
+
+O **Stand Digital** centraliza toda a apresentação do lançamento em um único ambiente digital — materiais, plantas, diferenciais, simulações e links de conversão.
+
+Seus corretores vendem com clareza, o cliente entende o valor mais rápido e o incorporador ganha dados sobre o que engaja em cada etapa.  
+**Resultado:** lançamentos priorizados e um ciclo de vendas mais curto.
+
+## Explore a documentação
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Documentação Geral" icon="open-book">
+    Entenda o conceito, arquitetura e funcionamento da plataforma StandDigital.
+    <br />
+    <a href="/docs-stand/">Acessar documentação geral →</a>
+  </Card>
+
+  <Card title="Documentação da Área Administrativa" icon="setting">
+    Consulte as referências e estruturas da área administrativa do StandDigital.
+    <br />
+    <a href="/docs-admin/">Ver documentação administrativa →</a>
+  </Card>
+
+  <Card title="Guia 'Como Fazer' — Administrativo" icon="document">
+    Tutoriais passo a passo para configurar, gerenciar e personalizar o ambiente administrativo.
+    <br />
+    <a href="/guides-admin/">Acessar guia administrativo →</a>
+  </Card>
+
+  <Card title="Guia 'Como Fazer' — Corretor" icon="user">
+    Aprenda como os corretores utilizam o StandDigital para apresentar e vender com eficiência.
+    <br />
+    <a href="/guides-stand/">Acessar guia do corretor →</a>
+  </Card>
+
+  <Card title="Fale Conosco" icon="chat">
+    Dúvidas ou sugestões? Entre em contato com a equipe StandDigital.
+    <br />
+    <a href="mailto:suporte@standdigital.com">suporte@standdigital.com</a>
+  </Card>
 </CardGrid>
+
