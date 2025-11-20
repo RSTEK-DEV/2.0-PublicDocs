@@ -6,19 +6,38 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: '',
+			locales: {
+				root: {
+				label: 'Português (Brasil)',
+				lang: 'pt-BR',
+				},
+			},
+			description: 'A plataforma completa para lançamentos imobiliários.',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/RSTEK-DEV' }],
+			logo: {src: '/src/assets/logo.svg', alt : 'Logomarca StandDigital'},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Stand Digital',
+					collapsed: true,
+					badge: { text: '+2.0', variant: 'success' },
+					autogenerate: { directory: 'docs-stand' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Área administrativa',
+					 collapsed: true,
+					 badge: { text: '+2.0', variant: 'success' },
+					autogenerate: { directory: 'docs-admin' },
+				},
+				{
+					label: 'Guias corretores',
+					 collapsed: true,
+					autogenerate: { directory: 'guides-stand' },
+				},
+				{
+					label: 'Guias Adm',
+					 collapsed: true,
+					autogenerate: { directory: 'guides-admin' },
 				},
 			],
 		}),
