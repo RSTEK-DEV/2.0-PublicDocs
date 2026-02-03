@@ -16,6 +16,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '',
+			customCss: ['./src/assets/style.css'],
 			locales: {
 				root: {
 					label: 'Português (Brasil)',
@@ -35,6 +36,11 @@ export default defineConfig({
 				alt: 'Logomarca StandDigital',
 			},
 			sidebar: [
+					{
+					label: 'Contrate hoje mesmo',
+					link: 'https://wa.me/5511988157196',
+					attrs: { target: '_blank', class: 'cta-button' }
+				},
 				{
 					label: 'Stand Digital',
 					collapsed: true,
@@ -53,7 +59,7 @@ export default defineConfig({
 					autogenerate: { directory: 'guides-stand' },
 				},
 				{
-					label: 'Guias Adm',
+					label: 'Guias Administradores',
 					collapsed: true,
 					autogenerate: { directory: 'guides-admin' },
 				},
