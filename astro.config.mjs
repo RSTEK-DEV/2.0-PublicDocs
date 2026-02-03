@@ -7,7 +7,7 @@ const isGithubPages = process.env.GITHUB_PAGES === 'true';
 export default defineConfig({
 	site: isGithubPages
 		? 'https://rstek-dev.github.io'  // ← CORRIGIDO: GitHub Pages quando GITHUB_PAGES=true
-		: 'https://docs.seudominio.com',
+		: 'https://docs.standdigital.com.br',
 
 	base: isGithubPages
 		? '/2.0-PublicDocs/'  // ← CORRIGIDO: precisa da base quando no GitHub Pages
