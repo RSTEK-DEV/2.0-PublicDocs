@@ -44,13 +44,13 @@ export default defineConfig({
 				{
 					label: 'Stand Digital',
 					collapsed: true,
-					badge: { text: '+2.0', variant: 'success' },
+					badge: { text: '+2.1', variant: 'success' },
 					autogenerate: { directory: 'docs-stand' },
 				},
 				{
 					label: 'Área administrativa',
 					collapsed: true,
-					badge: { text: '+2.0', variant: 'success' },
+					badge: { text: '+2.1', variant: 'success' },
 					autogenerate: { directory: 'docs-admin' },
 				},
 				{
