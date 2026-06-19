@@ -1,0 +1,111 @@
+---
+title: Tabela de Preços e Simulação
+description: Como consultar unidades disponíveis, preços por tipologia, planos de pagamento e realizar simulações com o cliente.
+sidebar:
+  order: 5
+---
+
+import { Aside, Card, CardGrid, Steps } from '@astrojs/starlight/components';
+
+A **tabela de preços** e a **simulação** são ferramentas exclusivas para corretores aprovados — clientes que acessam via link compartilhado não têm acesso a esses dados. Isso garante que o processo de apresentação de preços seja feito com sua mediação, no momento certo da negociação.
+
+## Tabela de preços e disponibilidade
+
+A tabela mostra todas as unidades do empreendimento com suas situações atualizadas em tempo real. Cada linha representa uma unidade e exibe:
+
+- Bloco / Torre e número da unidade
+- Tipologia (ex: 2 quartos, 3 quartos, cobertura)
+- Área útil e área total
+- Andar
+- Valor atualizado
+- Status de disponibilidade (disponível, reservado, vendido, etc.)
+
+### Status de disponibilidade
+
+Os status são configurados pela incorporadora e podem variar por empreendimento. Os mais comuns são:
+
+| Status | O que significa |
+|---|---|
+| **Disponível** | Unidade livre para negociação |
+| **Reservado** | Em processo de negociação, temporariamente bloqueado |
+| **Vendido** | Unidade já comercializada |
+| **Bloqueado** | Fora de comercialização por decisão da incorporadora |
+
+<Aside type="note">
+O histórico de alterações de preço e status de cada unidade é registrado automaticamente. Se uma unidade teve o preço alterado, essa informação fica disponível no histórico interno — útil para acompanhar variações ao longo do lançamento.
+</Aside>
+
+### Como filtrar e navegar na tabela
+
+A tabela pode ser filtrada por tipologia, bloco, faixa de preço e status. Use os filtros para encontrar rapidamente as opções mais adequadas para o perfil do cliente que está atendendo.
+
+Quando o empreendimento tem muitas unidades, a navegação por filtros economiza tempo e permite comparar opções similares lado a lado.
+
+<Aside type="tip">
+Antes de uma visita ou apresentação, acesse a tabela para verificar quais unidades estão disponíveis na tipologia que o cliente deseja. Nada mais frustrante do que apresentar uma unidade que já foi vendida.
+</Aside>
+
+## Planos de pagamento
+
+Dentro da seção de tabela, você encontra os **planos de pagamento** configurados pela incorporadora. Cada plano define como o valor da unidade é distribuído ao longo do tempo:
+
+- Percentual de entrada
+- Parcelas durante a obra
+- Saldo na entrega das chaves
+- Condições de desconto à vista
+
+Um empreendimento pode ter múltiplos planos ativos simultaneamente — por exemplo, um plano padrão e um plano especial para primeiras unidades. Você pode comparar os planos para apresentar ao cliente a condição que melhor se encaixa na situação financeira dele.
+
+### Exemplo de estrutura de plano
+
+```
+Plano A — Pagamento durante obra
+  Entrada: 20% do valor na assinatura do contrato
+  Obra: 30% em parcelas mensais até a entrega
+  Chaves: 50% na entrega ou financiamento bancário
+
+Plano B — Entrada reduzida
+  Entrada: 10% do valor
+  Obra: 40% em parcelas mensais
+  Chaves: 50% na entrega ou financiamento bancário
+```
+
+<Aside type="note">
+Planos inativos não aparecem na tabela de preços, mas o histórico é preservado. Isso garante que dados de negociações anteriores não sejam perdidos.
+</Aside>
+
+## Simulação financeira
+
+A simulação permite que você calcule condições de pagamento específicas para o cliente, com base no valor da unidade e no plano escolhido. É uma ferramenta de apoio à negociação — especialmente útil para clientes que precisam ver os números concretos antes de avançar.
+
+### Como realizar uma simulação
+
+<Steps>
+
+1. Acesse a tabela de preços do empreendimento
+2. Selecione a unidade de interesse
+3. Escolha o plano de pagamento aplicável
+4. Informe os parâmetros da simulação (entrada, prazo, renda)
+5. Visualize o resultado detalhado da composição financeira
+
+</Steps>
+
+O resultado da simulação mostra como o valor total se distribui: entrada, parcelas durante a obra e saldo final. Isso permite uma conversa concreta sobre viabilidade financeira sem sair da plataforma.
+
+### Quando usar a simulação
+
+**No atendimento presencial:** Abra a simulação no tablet ou celular e percorra os números com o cliente ao vivo. Ver os valores organizados na tela reduz resistências e antecipa objeções.
+
+**No compartilhamento remoto:** Algumas incorporadoras habilitam acesso controlado à simulação para que o próprio cliente calcule condições. Nesse caso, o resultado fica registrado e você pode acompanhar qual cenário o cliente explorou.
+
+**No pré-atendimento:** Use a simulação antes da conversa para calcular o valor mensal aproximado das parcelas e ter os números prontos quando o cliente perguntar.
+
+<Aside type="tip">
+Clientes que ficam presos na objeção de preço frequentemente precisam ver o valor decomposto em parcelas mensais — não o total. A simulação transforma "R$ 650 mil" em "R$ 3.200 por mês durante a obra, depois financiamento".
+</Aside>
+
+## Acesso exclusivo ao corretor
+
+A tabela de preços e a simulação ficam na rota **Tabela** do stand, acessível apenas para corretores autenticados e aprovados pela empresa. Clientes que acessam via link de compartilhamento não veem essa seção.
+
+Isso protege a estratégia comercial da incorporadora e garante que o corretor seja o mediador do processo de apresentação de preços — papel fundamental para conduzir a negociação com inteligência.

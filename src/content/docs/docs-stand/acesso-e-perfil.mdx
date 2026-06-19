@@ -1,0 +1,127 @@
+---
+title: Acesso, Perfil e VCard
+description: Como entrar na plataforma, configurar seu perfil profissional e usar o cartão de visita digital do Stand Digital.
+sidebar:
+  order: 2
+---
+
+import { Aside, Steps, Card, CardGrid } from '@astrojs/starlight/components';
+
+Sua presença profissional começa antes do primeiro contato com o cliente. O Stand Digital oferece um perfil completo, um cartão de visita digital e um fluxo de acesso seguro que refletem credibilidade desde o primeiro segundo.
+
+## Como você recebe acesso
+
+O acesso ao Stand Digital é gerenciado pela incorporadora ou pelo gestor da equipe. Existem três formas de você entrar na plataforma:
+
+### Convite por link
+
+O administrador gera um link de convite com validade configurável e te envia. Ao acessar o link, você preenche seus dados e cria sua conta. É o fluxo mais comum para novos corretores de uma equipe.
+
+### Solicitação de acesso
+
+Em alguns empreendimentos, o Stand Digital permite que o corretor solicite acesso diretamente pela plataforma. O administrador recebe a solicitação e aprova ou rejeita. Após aprovação, você recebe confirmação e pode entrar.
+
+### Cadastro com aprovação posterior
+
+Em empresas com fluxo aberto, você pode se cadastrar e aguardar aprovação. Enquanto não aprovado, a plataforma exibe uma tela de espera informando o status.
+
+<Aside type="note">
+Após o cadastro, você pode receber uma tela de **aguardando aprovação**. Isso é normal. O administrador da empresa precisa ativar seu acesso antes que você navegue pelos empreendimentos.
+</Aside>
+
+## Fazendo login
+
+A plataforma oferece três formas de autenticação — você pode usar qualquer uma delas:
+
+<CardGrid>
+  <Card title="E-mail e senha" icon="document">
+    O método padrão. Informe seu e-mail e senha cadastrados. A plataforma usa proteção anti-bot na tela de login.
+  </Card>
+  <Card title="Login com Google" icon="right-arrow">
+    Acesse com sua conta Google. Rápido, sem precisar lembrar senha. Ideal para quem usa o Google no dia a dia.
+  </Card>
+  <Card title="Passkey (biometria)" icon="star">
+    Use Face ID, Touch ID ou Windows Hello para entrar sem digitar nada. O método mais seguro e mais rápido disponível.
+  </Card>
+</CardGrid>
+
+<Aside type="tip">
+Se sua empresa usar autenticação via Google (SSO), ao clicar em "Entrar com Google" você será redirecionado para o processo de autorização e voltará automaticamente para a plataforma.
+</Aside>
+
+## Seleção de empresa
+
+Se você tiver vínculo com mais de uma empresa na plataforma, após o login aparece a tela de **seleção de empresa**. Escolha a empresa cujos empreendimentos você quer acessar nessa sessão.
+
+Isso garante que você veja apenas os dados e empreendimentos da empresa correta — importante para corretores que atuam em múltiplas incorporadoras ou operações.
+
+## Seus ajustes de perfil
+
+Após acessar, vá em **Ajustes** para configurar suas informações profissionais. Um perfil completo aparece no seu cartão de visita digital e nos links que você compartilha com clientes.
+
+### O que você pode configurar
+
+- **Nome e sobrenome** — como aparece nos seus links e no VCard
+- **CRECI** — número do registro, exibido no perfil para transmitir credibilidade
+- **Telefone e WhatsApp** — contatos exibidos no VCard e no botão de contato
+- **UF de atuação** — estado onde você opera
+- **Foto de perfil** — aparece nos seus links compartilhados e no VCard
+
+<Steps>
+
+1. Clique em **Ajustes** no menu principal
+2. Edite seus dados pessoais e profissionais
+3. Salve as alterações
+
+</Steps>
+
+### Segurança da conta
+
+Em **Ajustes → Segurança**, você pode:
+
+- Alterar sua senha
+- Gerenciar Passkeys cadastradas (biometria)
+- Verificar dispositivos com acesso ativo
+
+<Aside type="tip">
+Cadastre uma Passkey (biometria) para entrar na plataforma com Face ID ou impressão digital. É o método mais seguro e mais rápido — sem precisar digitar senha.
+</Aside>
+
+### Mídias de apresentação padrão
+
+Em **Ajustes → Mídias de Apresentação**, você configura o vídeo ou áudio de introdução e encerramento que são usados nos seus links compartilhados quando o empreendimento não tem mídias específicas configuradas.
+
+Consulte a página [Mídias Pessoais](/docs-stand/midias-pessoais/) para entender como isso funciona e como impacta seus compartilhamentos.
+
+## VCard — seu cartão de visita digital
+
+O **VCard** é o seu cartão de visita profissional no formato digital. Ele reúne seu nome, CRECI, telefone, WhatsApp e qualquer informação de contato que você cadastrou no perfil.
+
+### Como usar o VCard
+
+Você tem um link exclusivo no formato:
+
+```
+https://[empresa].standdigital.com.br/vcard/[seu-id]
+```
+
+Esse link pode ser:
+
+- Compartilhado no WhatsApp em vez de digitar seus dados
+- Transformado em QR Code para eventos e visitas presenciais
+- Adicionado à sua assinatura de e-mail
+- Salvo na agenda do cliente com um clique
+
+### O que o cliente vê ao abrir seu VCard
+
+Ao abrir o link do VCard, o cliente vê seus dados de contato e pode, com um clique, salvar seus contatos diretamente na agenda do celular. Não precisa instalar nada nem fazer login.
+
+<Aside type="tip">
+Use o VCard no primeiro contato com leads novos: em vez de digitar seu número, envie o link do cartão digital. O cliente já salva seu contato e te associa a uma marca profissional desde o início.
+</Aside>
+
+## Recuperação de senha
+
+Se você esquecer sua senha, acesse a tela de login e clique em **Esqueci minha senha**. Você receberá um e-mail com o link de redefinição. O link tem validade limitada por segurança.
+
+Se você usa login com Google, não precisa de senha — acesse pela opção Google diretamente.
