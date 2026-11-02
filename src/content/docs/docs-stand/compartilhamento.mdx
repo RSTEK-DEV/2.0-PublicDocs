@@ -1,142 +1,157 @@
 ---
 title: Compartilhamento Inteligente
-description: Como gerar links personalizados, escolher o modo de apresentação, rastrear acessos e organizar compartilhamentos por campanha.
+description: Como criar um link de apresentação para o cliente — empreendimentos, modo livre ou guiado, mídias de abertura e encerramento, validade, campanha e o que é registrado quando o cliente abre.
 sidebar:
   order: 4
 ---
 
-import { Aside, Card, CardGrid, Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+import { Aside, Steps } from '@astrojs/starlight/components';
 
-O compartilhamento é o coração da operação comercial no Stand Digital. Cada link que você gera carrega o seu nome, é rastreado individualmente e permite que você saiba exatamente o que aconteceu depois que o cliente recebeu.
+O compartilhamento é a forma de enviar um empreendimento ao cliente em seu nome. Você monta a apresentação em um assistente de quatro etapas e recebe um link curto. Esse link pode ser enviado pelo WhatsApp, copiado ou apresentado em QR Code.
 
-Isso transforma o follow-up: em vez de perguntar "você viu o que te mandei?", você já sabe quando o cliente entrou, quanto tempo ficou e se converteu — e faz o contato no momento certo, com a informação certa.
+Cada link fica vinculado a você. Os acessos, retornos e contatos que ele gera ficam registrados para você e para a gestão.
 
-## O que é um link de compartilhamento
-
-Quando você gera um link para compartilhar com um cliente, esse link:
-
-- **Tem o seu nome** — o cliente vê que veio de você, não de uma fonte genérica
-- **É rastreado individualmente** — acessos, conversões e retornos são atribuídos a você
-- **Pode ser configurado** — modo de apresentação, telas acessíveis, expiração e mídia de introdução
-- **Gera pré-visualização rica** — quando colado no WhatsApp, Instagram ou Facebook, exibe imagem, título e descrição do empreendimento automaticamente (OpenGraph)
-
-<Aside type="tip">
-Nunca compartilhe a URL direta do stand. Sempre gere um link de compartilhamento. Só assim os acessos são rastreados no seu nome e as métricas ficam disponíveis para você e para a gestão.
+<Aside type="caution">
+Para que o acesso seja atribuído a você, envie sempre um link gerado pelo **Compartilhar**. Não copie o endereço do stand na barra do navegador.
 </Aside>
 
-## Modos de apresentação
+## Onde fica o Compartilhar
 
-Ao gerar um link, você escolhe como o cliente vai navegar pelo stand:
+- **Menu da sua conta** → **Compartilhar**
+- **Dentro de um empreendimento**, pelo menu do stand. Nesse caso, o empreendimento aberto já vem selecionado.
 
-### Modo Livre
+Só corretores com acesso aprovado podem criar compartilhamentos.
 
-O cliente navega pelo stand da forma que quiser — acessa qualquer seção, em qualquer ordem, no próprio ritmo. É o modo ideal para:
-
-- Leads que já estão engajados e querem explorar por conta própria
-- Compartilhamentos via WhatsApp onde o cliente não está em contato ao vivo com você
-- Envio de material de suporte após uma conversa ou visita presencial
-
-### Modo Guiado
-
-O cliente passa por uma apresentação linear, como uma sequência de slides. Ele avança tela por tela, na ordem que você definiu, sem poder pular para seções fora da sequência. É o modo ideal para:
-
-- Apresentações ao vivo, com você acompanhando o cliente pelo telefone ou videochamada
-- Leads que ainda não conhecem o empreendimento e precisam de uma introdução estruturada
-- Situações onde você quer controlar a narrativa de apresentação
-
-<Aside type="note">
-No modo guiado, você pode filtrar quais telas o cliente vê. Isso permite criar apresentações enxutas e focadas nos diferenciais certos para aquele perfil específico.
-</Aside>
-
-## Como gerar um link de compartilhamento
+## Visão geral do assistente
 
 <Steps>
 
-1. Abra o empreendimento no Stand Digital
-2. Acesse a opção de **Compartilhar** (disponível na interface do stand)
-3. Escolha o **modo de apresentação**: Livre ou Guiado
-4. Se escolher Guiado, selecione as telas que o cliente vai ver e a ordem
-5. Configure a **expiração** do link (por data, por número de acessos ou sem limite)
-6. Adicione o link a uma **campanha** se quiser agrupar compartilhamentos para análise
-7. Copie o link e envie ao cliente
+1. **Empreendimento:** escolha um stand ou monte uma seleção com vários
+2. **Experiência:** escolha o modo livre ou guiado, as telas, o canal e as configurações avançadas
+3. **Mensagem:** se quiser, adicione um vídeo ou áudio de abertura e de encerramento
+4. **Revisar:** confira o resumo e toque em **Gerar link**
 
 </Steps>
 
-## Controle de expiração
+Depois de gerar o link, você pode:
 
-Cada link pode ter uma regra de expiração independente:
+- **Copiar o link**
+- **Enviar no WhatsApp**: abre o WhatsApp com o link pronto para você escolher o contato
+- Mostrar um **QR Code**, útil em atendimentos presenciais
+- **Criar outro** compartilhamento
 
-| Tipo de expiração | Quando usar |
+## Etapa 1 — Empreendimento
+
+| Opção | O que o cliente recebe |
 |---|---|
-| **Por data** | Lançamentos com condições especiais até determinada data |
-| **Por número de acessos** | Links exclusivos de pré-venda com acesso controlado |
-| **Ilimitado** | Compartilhamentos de nutrição e follow-up de longo prazo |
+| **Um stand** | O link abre direto no empreendimento escolhido. |
+| **Múltiplos stands** | O cliente vê a página "Empreendimentos selecionados para você" e escolhe qual quer conhecer. Selecione pelo menos 2. |
 
-Após expirar, o link deixa de funcionar e o cliente recebe uma mensagem informativa. Você pode gerar um novo link a qualquer momento.
+Use **Múltiplos stands** quando ainda não sabe qual produto vai interessar mais ao cliente, como em um primeiro contato ou para comparar regiões e tipologias.
 
-## Mídia de introdução automática
+## Etapa 2 — Experiência
 
-Ao gerar um link, você pode configurar uma **mídia de introdução** que toca automaticamente antes que o cliente comece a navegar. Pode ser:
+### Modo livre ou modo guiado
 
-- Um vídeo do empreendimento (imagem do projeto, depoimento, teaser)
-- Um áudio do próprio corretor se apresentando e contextualizando
+| | **Modo livre** | **Modo guiado** |
+|---|---|---|
+| Como o cliente navega | Pelo menu, em qualquer ordem e no próprio ritmo | Tela a tela, com os botões **Anterior** e **Próximo**, na ordem que você definiu |
+| Telas | Todas, ou só as que você marcar em **Telas visíveis** | Só as que você incluir na **Sequência guiada** |
+| Tela inicial | Pode ser escolhida nas configurações avançadas | É a primeira da sequência |
+| Mídia de encerramento | Não disponível | Disponível ao final da sequência |
+| Ideal para | Envio pelo WhatsApp para o cliente ver sozinho | Apresentação ao vivo, por telefone ou videochamada, e leads que precisam de uma narrativa |
 
-Se você configurou uma mídia pessoal padrão nos seus ajustes, ela é usada automaticamente. O empreendimento também pode ter mídias específicas configuradas pela incorporadora.
+**Para montar a sequência guiada**, toque nas telas na ordem em que devem aparecer. Cada tela recebe um número, e o resumo mostra a ordem, por exemplo: `Visão geral → Plantas → Localização`. Para tirar uma tela, toque nela de novo. O modo guiado exige pelo menos uma tela na sequência.
 
-Consulte [Mídias Pessoais](/docs-stand/midias-pessoais/) para entender como configurar sua introdução e encerramento personalizados.
-
-## Rastreamento de acessos e conversões
-
-Cada link rastreia o comportamento do lead de forma automática:
-
-### Acessos
-
-Todo acesso ao link é registrado com data, hora, dispositivo e origem. O primeiro acesso cria o registro do lead no sistema.
-
-### Retornos
-
-Um retorno é contabilizado quando o lead acessa o link novamente, com intervalo mínimo de **10 minutos** desde o último acesso. Essa regra evita que recarregamentos rápidos da página sejam contados como retornos distintos.
-
-**Retornos são um sinal valioso:** um lead que voltou ao stand por conta própria está claramente interessado. Esse é o momento ideal para fazer contato.
-
-### Conversões
-
-Uma conversão é registrada quando o lead realiza uma **ação de alto valor** dentro do stand — como clicar no botão de WhatsApp, ligar para você ou preencher um formulário de contato.
+Ao final da sequência, o cliente vê a tela **Apresentação concluída**, com a opção de **Rever do início**.
 
 <Aside type="tip">
-Conversão não significa venda, mas significa que o lead demonstrou interesse ativo suficiente para iniciar contato. É o sinal mais importante que o sistema rastreia.
+No modo livre, use **Telas visíveis** para esconder o que não ajuda naquele atendimento. Você pode, por exemplo, mostrar só a visão geral, as plantas e a localização.
 </Aside>
 
-## Campanhas — agrupando compartilhamentos para análise
+### Canal
 
-Se você usar o mesmo link em múltiplos canais (WhatsApp, Instagram, e-mail, grupo de corretores), pode organizar os compartilhamentos em **campanhas** para comparar o desempenho por canal.
+Informe por onde você vai enviar o link: **WhatsApp**, **Email**, **Instagram**, **Link** ou **Outros**. O canal não muda nada para o cliente. Ele serve para os relatórios compararem o resultado de cada canal.
 
-A incorporadora ou o gestor pode criar campanhas e vincular compartilhamentos a elas. Isso permite responder perguntas como:
+<Aside type="note">
+Cada link tem um único canal. Se você vai divulgar o mesmo empreendimento no WhatsApp e no Instagram, gere um link para cada canal. Assim é possível comparar os resultados.
+</Aside>
 
-- Qual canal gerou mais leads para este empreendimento?
-- Compartilhamentos do Instagram convertem mais que os do e-mail?
-- Qual campanha de pré-venda teve melhor resultado?
+### Configurações avançadas
 
-Como corretor, você pode associar seus links a campanhas existentes ao gerar o compartilhamento — quando essa funcionalidade estiver disponível para o seu perfil.
+| Configuração | Como funciona |
+|---|---|
+| **Campanha** | Escolha uma das campanhas vigentes criadas pela empresa ou deixe **Sem campanha**. Isso agrupa o link nos relatórios da campanha. |
+| **Expiração** | Sem expiração, ou 3, 7, 15, 30 ou 90 dias a partir de hoje. |
+| **Máximo de acessos** | Limita quantas vezes o link pode ser aberto. Deixe em branco para não limitar. O mínimo é 3. |
+| **Tela inicial** | Só no modo livre, e somente quando você restringiu as telas visíveis. Define onde a visita começa. |
 
-## Pré-visualização rica no WhatsApp e redes sociais
+Você pode usar a expiração e o máximo de acessos juntos. O link deixa de abrir quando atingir qualquer um dos dois limites.
 
-Quando você cola o link de compartilhamento no WhatsApp, Instagram ou Facebook, a plataforma exibe automaticamente uma **pré-visualização rica**: uma imagem representativa do empreendimento, o título do projeto e uma descrição.
+Quando um link expira por data, o cliente vê uma página informando que o link expirou, com o seu contato por WhatsApp ou telefone. Para continuar o atendimento, gere um novo link.
 
-Isso faz o link parecer profissional e desperta curiosidade antes mesmo do cliente clicar. A diferença visual entre um link genérico e um link do Stand Digital com pré-visualização é significativa.
+## Etapa 3 — Mensagem (opcional)
+
+Você pode adicionar uma **abertura**, que aparece antes de o cliente entrar no stand, e um **encerramento**, que aparece ao final do modo guiado. Pule esta etapa se não quiser usar mensagens.
+
+Para cada uma, escolha a origem da mídia:
+
+- **Usar padrão:** usa uma das suas [Mídias de apresentação](/docs-stand/midias-pessoais/), gravadas em **Ajustes → Mídias**. Não gasta créditos.
+- **Nova gravação:** grava ali mesmo uma mensagem só para este link. Você pode gravar um vídeo de até 30 segundos ou um áudio de até 60 segundos.
+
+**Sobre a nova gravação:**
+
+- Ela consome **créditos da empresa**, e o vídeo custa mais que o áudio. O assistente mostra o custo, quantas aberturas a mensagem cobre e por quantos dias.
+- Depois desse limite, o link continua funcionando, mas sem a mensagem.
+- Se a empresa não tiver créditos para vídeo, ainda é possível gravar em áudio. Se não houver créditos para nenhum dos dois, use a mídia padrão.
+- Se você marcar **Salvar como mídia padrão**, a gravação substitui a sua mídia padrão daquele tipo e o link passa a usá-la. Isso não gasta créditos, mas conta como uma das trocas de mídia padrão do mês.
+
+**Na abertura**, o cliente vê seu nome, sua foto e a mensagem. Ele pode **Pular introdução** ou **Entrar na experiência**.
+
+**No encerramento**, além da mensagem, aparecem os botões **Falar no WhatsApp**, **Ligar agora** e, em links com vários stands, **Ver outros empreendimentos**.
+
+<Aside type="note">
+A disponibilidade das mídias depende do plano contratado pela empresa e da configuração do stand. Se uma opção não aparecer ou estiver desativada, o assistente mostra o motivo.
+</Aside>
+
+## Etapa 4 — Revisar
+
+Confira o resumo antes de gerar o link: stands, modo, canal, expiração, abertura e encerramento. Para corrigir algo, use a seta de voltar.
+
+## Pré-visualização no WhatsApp e nas redes sociais
+
+O link gerado mostra automaticamente uma prévia com imagem, título e descrição quando é colado no WhatsApp, no Instagram ou no Facebook:
+
+- **Um stand:** capa, nome e descrição do empreendimento
+- **Múltiplos stands:** "Empreendimentos selecionados por [seu nome]", com a quantidade de empreendimentos
+
+A prévia não conta como acesso. Só conta quando o cliente realmente abre o link.
+
+## O que é registrado quando o cliente abre o link
+
+| Registro | Quando acontece |
+|---|---|
+| **Acesso** | Cada vez que o link é aberto. O primeiro acesso de um aparelho cria o lead no sistema. |
+| **Retorno** | Quando o mesmo aparelho abre o link de novo pelo menos **10 minutos** depois do último acesso registrado. Aberturas antes desse intervalo, como ao recarregar a página, não contam. |
+| **Profundidade da visita** | Quantas telas diferentes o cliente viu e, no modo guiado, se chegou ao final da sequência. |
+| **Contato iniciado** | Quando o cliente toca em um botão de contato no stand, como WhatsApp, ligar ou e-mail. Nos relatórios antigos, esse registro também aparece como "conversão". |
 
 <Aside type="tip">
-A pré-visualização é configurada pela incorporadora com a imagem e texto do empreendimento. Você não precisa fazer nada — ela aparece automaticamente para qualquer link gerado.
+Um contato iniciado não é uma venda. Ele mostra que o cliente teve interesse suficiente para tentar falar com você. Um retorno também é um bom sinal: o cliente voltou por conta própria.
 </Aside>
 
-## Boas práticas de compartilhamento
+Esses dados alimentam os relatórios de compartilhamentos e de campanhas no painel administrativo.
 
-**Contextualize sempre antes de enviar o link.** Um link sem contexto tem taxas de abertura muito menores. Mencione o diferencial específico que você está destacando para aquele cliente.
+## Boas práticas
 
-**Use o modo guiado para apresentações ao vivo.** Se você vai apresentar o empreendimento por videochamada ou telefone, o modo guiado garante que o cliente veja o que você quer mostrar, na ordem certa.
+**Contextualize antes do link.** Diga em uma frase por que aquele empreendimento combina com o cliente. Um link sem contexto parece spam.
 
-**Monitore retornos para fazer follow-up no momento certo.** Um cliente que voltou ao stand por conta própria está aquecido. Esse é o momento ideal — não espere mais 3 dias.
+**Escolha o modo pelo tipo de atendimento.** Use o modo livre quando o cliente for ver sozinho e o modo guiado quando você estiver conduzindo a apresentação.
 
-**Não compartilhe mais de 1–2 links por vez para o mesmo cliente.** Múltiplos links ao mesmo tempo geram sobrecarga e reduzem a chance de qualquer um ser aberto com atenção.
+**Mostre menos telas.** Uma apresentação curta e focada costuma funcionar melhor do que o stand completo.
 
-**Respeite a expiração do link.** Se você combinei condições especiais com prazo determinado, use a expiração por data para reforçar a seriedade da oferta.
+**Grave suas mídias padrão uma vez.** Assim você tem abertura e encerramento em qualquer link, sem gastar créditos. Reserve a nova gravação para clientes estratégicos.
+
+**Use a expiração quando houver prazo.** Se você ofereceu uma condição até uma data, configure a expiração para reforçar o prazo.
+
+**Envie um link por vez.** Vários links ao mesmo tempo dividem a atenção do cliente. Se quiser mostrar mais de um empreendimento, use **Múltiplos stands**.

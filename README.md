@@ -1,3 +1,20 @@
+# Documentação pública do Stand Digital
+
+## Catálogo da Central de Ajuda
+
+Todo build gera `dist/catalog.json`, publicado em `https://docs.standdigital.com.br/catalog.json`.
+O Stand Digital lê esse arquivo para mostrar os artigos na Central de Ajuda.
+
+- **O que entra:** as seções `docs-stand` e `guides-stand`, na ordem do sidebar (`src/sidebar.mjs`).
+  Para incluir, tirar ou reordenar um artigo, edite o sidebar.
+- **Como é gerado:** a integração `integrations/central-catalog.mjs` lê o HTML final de cada página e
+  converte os componentes do Starlight em HTML neutro (`doc-callout`, `doc-steps`, `doc-cards`...).
+  O contrato do JSON está descrito no início desse arquivo.
+- **Quando o build falha:** se uma página do sidebar não existir, se a estrutura do Starlight mudar ou
+  se um artigo usar um componente sem conversão. Nesses casos, ajuste a integração antes de publicar.
+
+---
+
 # Starlight Starter Kit: Basics
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)

@@ -13,5 +13,11 @@
     "@astrojs/starlight": "^0.40.0",
     "astro": "^6.4.8",
     "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "hast-util-from-html": "^2.0.3",
+    "hast-util-select": "^6.0.4",
+    "hast-util-to-html": "^9.0.6",
+    "hast-util-to-text": "^4.0.3"
   }
 }
