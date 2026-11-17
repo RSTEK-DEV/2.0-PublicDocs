@@ -15,6 +15,11 @@ export default defineConfig({
 		? '/2.0-PublicDocs/'  // ← CORRIGIDO: precisa da base quando no GitHub Pages
 		: '/',
 
+	// O guia "Personalização do perfil" era uma cópia do "Personal branding".
+	redirects: {
+		'/guides-stand/personalizacao-perfil/': '/guides-stand/personal-brandig/',
+	},
+
 	integrations: [
 		starlight({
 			title: '',

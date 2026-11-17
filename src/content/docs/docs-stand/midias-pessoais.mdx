@@ -9,23 +9,25 @@ import { Aside, Card, CardGrid, Steps } from '@astrojs/starlight/components';
 
 Quando o cliente abre o link que você compartilhou, ele ainda não falou com você. Mas pode ouvir você — ou ver você — antes de começar a navegar pelo stand.
 
-As **mídias pessoais** permitem que você grave um vídeo ou áudio de introdução que toca automaticamente no início da visita do cliente. E um vídeo ou áudio de encerramento que aparece ao final. São segundos que fazem diferença: criam conexão humana, transmitem credibilidade e diferenciam sua apresentação de qualquer outro corretor que também trabalhe aquele lançamento.
+As **mídias pessoais** permitem que você grave um vídeo ou áudio de introdução que toca automaticamente no início da visita do cliente. E um vídeo ou áudio de encerramento que aparece ao final da apresentação no modo guiado. São segundos que fazem diferença: criam conexão humana, transmitem credibilidade e diferenciam sua apresentação de qualquer outro corretor que também trabalhe aquele lançamento.
 
 ## Como funcionam as mídias pessoais
 
 Quando um cliente acessa o link de compartilhamento que você gerou, a plataforma verifica se há uma **mídia de introdução** configurada. Se houver, ela toca antes que o cliente comece a navegar pelo stand.
 
-O mesmo acontece no encerramento: após o cliente percorrer o conteúdo, uma mídia de encerramento pode aparecer — com um call-to-action personalizado para entrar em contato com você.
+No **modo guiado**, depois que o cliente percorre a sequência de telas, a mídia de encerramento aparece com os botões de contato com você (WhatsApp e, se você tiver telefone cadastrado, Ligar agora). No modo livre não há encerramento, porque o cliente navega à vontade.
 
 Existem dois níveis de configuração:
 
 ### Mídia padrão (seus ajustes de perfil)
 
-Você configura uma mídia padrão em **Ajustes → Mídias de Apresentação**. Essa mídia é usada automaticamente em todos os links que você gerar, para qualquer empreendimento, quando não houver uma mídia específica configurada para aquele compartilhamento.
+Em **Ajustes → Mídias de Apresentação** você grava até quatro mídias padrão: vídeo de abertura, vídeo de encerramento, áudio de abertura e áudio de encerramento. Ao gerar um link, basta escolher **Usar padrão**.
+
+Os links que usam a mídia padrão sempre mostram a versão atual: se você regravar, todos passam a exibir a nova; se remover, eles abrem sem mídia.
 
 ### Mídia específica por compartilhamento
 
-Ao gerar um link de compartilhamento, você pode configurar uma mídia diferente para aquele link específico. Isso permite personalizar a introdução por empreendimento, por campanha ou por perfil de cliente.
+Ao gerar um link de compartilhamento, você pode gravar uma mensagem nova só para aquele link. Isso permite personalizar a introdução por empreendimento, por campanha ou por cliente. Essa gravação consome créditos da empresa e vale por um número limitado de aberturas e dias.
 
 <Aside type="tip">
 Uma introdução específica para cada empreendimento converte mais do que uma introdução genérica. Mencionar o nome do lançamento e um diferencial específico no vídeo faz o cliente sentir que aquilo foi preparado para ele.
@@ -41,7 +43,7 @@ Uma introdução específica para cada empreendimento converte mais do que uma i
     Sua voz sem imagem. Mais fácil de gravar, ainda assim muito eficaz. Ótimo para quem prefere não aparecer em vídeo ou precisa de algo rápido.
   </Card>
   <Card title="Vídeo de encerramento" icon="approve-check">
-    Aparece ao final da navegação com um call-to-action direto: "O que achou? Me chama no WhatsApp!" Mantém você presente no momento em que o cliente está mais engajado.
+    Aparece ao final da apresentação no modo guiado, com um call-to-action direto: "O que achou? Me chama no WhatsApp!" Mantém você presente no momento em que o cliente está mais engajado.
   </Card>
   <Card title="Áudio de encerramento" icon="document">
     Versão em áudio do encerramento. Mesma função — redirecionar o cliente para o contato com você no pico do interesse.
@@ -54,17 +56,24 @@ Uma introdução específica para cada empreendimento converte mais do que uma i
 
 1. Acesse **Ajustes** no menu principal da plataforma
 2. Navegue até **Mídias de Apresentação**
-3. Faça upload do seu vídeo ou áudio de introdução
-4. Faça upload do vídeo ou áudio de encerramento (opcional, mas recomendado)
-5. Salve as configurações
+3. Toque em **Gravar vídeo** ou **Gravar áudio** no espaço de abertura e grave direto no app
+4. Repita no espaço de encerramento (opcional, mas recomendado)
+5. Confira a gravação e envie
 
 </Steps>
 
-A partir desse momento, qualquer link de compartilhamento que você gerar usará essas mídias automaticamente — a menos que você configure uma mídia diferente para um link específico.
+A gravação é feita no próprio app, com a câmera ou o microfone do aparelho — não há envio de arquivo gravado fora da plataforma.
+
+**Limites:**
+
+- Vídeo: até 30 segundos, na abertura e no encerramento
+- Áudio: até 60 segundos, na abertura e no encerramento
+- Trocas: até 3 por mês em cada mídia. O contador aparece em cada espaço e mostra quando novas trocas são liberadas.
+- A disponibilidade do vídeo depende do plano contratado pela empresa.
 
 ## O que gravar: roteiro sugerido
 
-### Introdução (30–60 segundos)
+### Introdução (até 30 segundos em vídeo ou 60 em áudio)
 
 A introdução deve ser curta e direta. O cliente ainda não conhece o produto — sua função é criar rapport e direcionar a atenção.
 
@@ -98,7 +107,7 @@ O encerramento aparece quando o cliente já viu tudo. É o momento de capturar o
    > "Meu WhatsApp está aqui no botão abaixo. Te espero!"
 
 <Aside type="note">
-Vídeos de introdução com mais de 90 segundos tendem a ser ignorados. Seja objetivo. O cliente está ansioso para ver o empreendimento — sua introdução deve despertar curiosidade, não substituir o tour.
+O tempo é curto de propósito. Seja objetivo. O cliente está ansioso para ver o empreendimento — sua introdução deve despertar curiosidade, não substituir o tour.
 </Aside>
 
 ## Boas práticas para gravação
@@ -107,11 +116,11 @@ Vídeos de introdução com mais de 90 segundos tendem a ser ignorados. Seja obj
 
 **Tom de voz:** Fale com energia e naturalidade. Sorria. O cliente não vê um roteiro sendo lido — vê uma pessoa.
 
-**Tamanho:** Introdução máxima de 60 segundos. Encerramento máximo de 30 segundos.
+**Tamanho:** vídeo até 30 segundos e áudio até 60 segundos, tanto na abertura quanto no encerramento. Ensaie o roteiro antes para caber no tempo.
 
-**Qualidade:** Grave no celular em posição horizontal (paisagem). A câmera traseira tem qualidade superior à frontal se precisar de melhor imagem, mas a frontal é mais prática para manter contato visual com a câmera.
+**Qualidade:** O gravador abre na câmera frontal, mais prática para manter contato visual; você pode alternar para a traseira se precisar de melhor imagem.
 
-**Personalização:** Grave vídeos diferentes para empreendimentos com perfis de público distintos. Um mesmo vídeo genérico para todos os lançamentos converte menos do que uma introdução que menciona especificamente o produto.
+**Personalização:** A mídia padrão vale para todos os links. Para um cliente ou empreendimento específico, use a gravação no próprio compartilhamento, lembrando que ela consome créditos da empresa.
 
 ## Por que isso diferencia você dos demais corretores
 

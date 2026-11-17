@@ -23,6 +23,7 @@ export const sidebar = [
 			{ label: 'Tabela de preços e simulação', link: '/docs-stand/tabela-de-precos-e-simulacao/' },
 			{ label: 'Playbook com IA', link: '/docs-stand/playbook/' },
 			{ label: 'Mídias pessoais', link: '/docs-stand/midias-pessoais/' },
+			{ label: 'Material publicitário', link: '/docs-stand/material-publicitario/' },
 		],
 	},
 	{
@@ -39,7 +40,6 @@ export const sidebar = [
 			{ label: 'Organizar sua rotina', link: '/guides-stand/organizar-rotina/' },
 			{ label: 'Personal branding', link: '/guides-stand/personal-brandig/' },
 			{ label: 'Networking digital', link: '/guides-stand/networkig/' },
-			{ label: 'Personalização do perfil', link: '/guides-stand/personalizacao-perfil/' },
 		],
 	},
 	{
