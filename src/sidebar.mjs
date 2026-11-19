@@ -20,6 +20,7 @@ export const sidebar = [
 			{ label: 'Acesso, perfil e VCard', link: '/docs-stand/acesso-e-perfil/' },
 			{ label: 'O stand do empreendimento', link: '/docs-stand/stand-do-empreendimento/' },
 			{ label: 'Compartilhamento inteligente', link: '/docs-stand/compartilhamento/' },
+			{ label: 'Acompanhar', link: '/docs-stand/acompanhar/' },
 			{ label: 'Tabela de preços e simulação', link: '/docs-stand/tabela-de-precos-e-simulacao/' },
 			{ label: 'Playbook com IA', link: '/docs-stand/playbook/' },
 			{ label: 'Mídias pessoais', link: '/docs-stand/midias-pessoais/' },

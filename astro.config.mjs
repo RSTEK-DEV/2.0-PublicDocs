@@ -23,6 +23,8 @@ export default defineConfig({
 		'/guides-stand/mensagen-engajadas/': '/guides-stand/mensagens-engajadas/',
 		'/guides-stand/networkig/': '/guides-stand/networking/',
 		'/guides-stand/personal-brandig/': '/guides-stand/personal-branding/',
+		// A página do painel Acompanhar se chamava "Meus Links".
+		'/docs-stand/meus-links/': '/docs-stand/acompanhar/',
 	},
 
 	integrations: [
